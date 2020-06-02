@@ -23,7 +23,12 @@
     	class="sprint_demo.CricketCoach">
     	<!-- set uo setter injection -->
     	<property name="fortuneService" ref="myFortune"/>
+    	<!-- inject literal values -->
+    	<property name="emailAddress" value="aonagarcia@gmail.com" />
+    	<property name="team" value="HOME" />
+    	
     </bean>
+    
 </beans>
 
 

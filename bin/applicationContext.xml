@@ -19,6 +19,11 @@
     	<!-- set up constructor injection -->
     	<constructor-arg ref="myFortune"/>
     </bean>
+    <bean id="myCrickedCoach"
+    	class="sprint_demo.CricketCoach">
+    	<!-- set uo setter injection -->
+    	<property name="fortuneService" ref="myFortune"/>
+    </bean>
 </beans>
 
 
